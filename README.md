@@ -7,7 +7,7 @@
 
 <div align="center">
   <!-- marketplace version -->
-  <a href="https://marketplace.visualstudio.com/items?itemName=dhedgecock.radical-vscode">
+  <a href="https://marketplace.visualstudio.com/items?itemName=dhedgecock.radical-vscodeBracket Pair Colorizer 2
     <img alt="marketplace version" src="https://img.shields.io/visual-studio-marketplace/i/dhedgecock.radical-vscode.svg?maxAge=3600&style=for-the-badge&labelColor=1A1B46&color=D5358F">
   </a>
   &nbsp;&nbsp;
@@ -191,12 +191,28 @@ extension is a nice way to mix in some neon pops.
 
 ```json
 {
-  "bracket-pair-colorizer-2.colors": [
-    "#DFF959",
-    "#F834BB",
-    "#2BF5E9",
-    "#D831D7"
-  ]
+  // Define cores para Bracket Pair Colorizer
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveIndentation": false,
+  "workbench.colorCustomizations": {
+    // Bracket colors
+    "editorBracketHighlight.foreground1": "#DFF959",
+    "editorBracketHighlight.foreground2": "#F834BB",
+    "editorBracketHighlight.foreground3": "#2BF5E9",
+    "editorBracketHighlight.foreground4": "#D831D7",
+    // Inactive guide colors
+    "editorBracketPairGuide.background1": "#E5CC76",
+    "editorBracketPairGuide.background2": "#F939B5",
+    "editorBracketPairGuide.background3": "#5FC9E2",
+    "editorBracketPairGuide.background4": "#E337C9",
+    // Active guide colors
+    "editorBracketPairGuide.activeBackground1": "#E5CC76",
+    "editorBracketPairGuide.activeBackground2": "#F939B5",
+    "editorBracketPairGuide.activeBackground3": "#5FC9E2",
+    "editorBracketPairGuide.activeBackground4": "#E337C9"
+  },
 }
 ```
 
