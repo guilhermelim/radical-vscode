@@ -191,7 +191,7 @@ extension is a nice way to mix in some neon pops.
 
 ```json
 {
-  // Define cores para Bracket Pair Colorizer
+  // Set cores for Bracket Pair Colorizer
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": "active",
